@@ -1,0 +1,20 @@
+# Virtuelle Umgebungen ignorieren
+venv/
+.env
+.venv/
+
+mini_projekte_venv/
+
+# Cache-Dateien ignorieren
+__pycache__/
+*.pyc
+*.pyo
+
+# Log- und Debug-Dateien ignorieren
+*.log
+*.sqlite3
+.DS_Store
+
+# Sensible Daten ignorieren
+config.json
+secrets.json
