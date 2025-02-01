@@ -1,0 +1,10 @@
+support@example.com
+john.doe@company.com
+assistant@company.com
+marketing@business.org
+tech.support@business.org
+support@example.com
+john.doe@company.com
+assistant@company.com
+marketing@business.org
+tech.support@business.org
