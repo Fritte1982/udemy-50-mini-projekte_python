@@ -5,6 +5,7 @@ from pprint import pprint
 import  pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from own_packages import path_attributes as pa
+from tabulate import tabulate
 
 SOURCE_PATH = pa.SOURCE_DIR
 dbfile = os.path.join(SOURCE_PATH,"data.db")
@@ -27,3 +28,6 @@ df = pd.DataFrame(raw_data, columns=headers)
 df = df.set_index("AlbumId")
 print(df)
 conn.close()
+
+tabelle = tabulate(tabular_data=raw_data,headers= headers, tablefmt="psql")
+print(tabelle)
