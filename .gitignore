@@ -18,3 +18,9 @@ __pycache__/
 # Sensible Daten ignorieren
 config.json
 secrets.json
+
+#temp-dateien
+*.tmp
+*.temp
+*~
+~$*
