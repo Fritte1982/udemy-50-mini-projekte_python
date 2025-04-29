@@ -7,7 +7,7 @@ from own_packages import path_attributes as pa
 
 SOURCE_PATH = pa.SOURCE_DIR
 
-ENV_PATH = r"C:\Users\richa\git-projekte\udemy-50-mini-projekte_python\work\DropBox_API\.env"
+ENV_PATH = r"../DropBox_API/.env"
 dotenv.load_dotenv(ENV_PATH)
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 d= dropbox.Dropbox(ACCESS_TOKEN)
