@@ -24,3 +24,5 @@ secrets.json
 *.temp
 *~
 ~$*
+
+*.egg-info/
