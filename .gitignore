@@ -26,3 +26,6 @@ secrets.json
 ~$*
 
 *.egg-info/
+
+
+.ipynb_checkpoints/
