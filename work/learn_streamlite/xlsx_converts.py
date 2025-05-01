@@ -16,6 +16,11 @@ def xlsx_to_json(xlsx_in):
     json_data = df.to_json(orient="records")
     return json_data
 
+def xlsx_to_csv(xlsx_in):
+    df = pd.read_excel(xlsx_in)
+    csv_data = df.to_csv(index=False)
+    return csv_data
+
 
 def main():
     pprint(xlsx_to_json(xlsx_in_path))

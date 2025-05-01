@@ -18,7 +18,7 @@ udemy-50-mini-projekte_python/
 │   └── learn_streamlite/
 │       ├── __init__.py
 │       ├── front_xlsx_to_json.py
-│       └── xlsx_to_json_tutorial.py
+│       └── xlsx_converts.py
 │
 ├── own_packages/
 │   ├── __init__.py

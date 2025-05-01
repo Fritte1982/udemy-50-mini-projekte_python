@@ -1,6 +1,6 @@
 """Frontend das eine Excel-Datei in eine json wandelt und zum Download bereitstellt """
 import streamlit as st
-from xlsx_to_json_tutorial import xlsx_to_json
+from xlsx_converts import xlsx_to_json
 
 st.title("Front XLSX to JSON")
 st.write("Upload a .xlsx file to convert it to JSON")
